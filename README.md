@@ -1,1 +1,3 @@
-# omega1 hfhsdgfhshdfsdsdjfjsdhfjsdhfjsdsdhfsdjf
+# omega1 
+
+binayak patha padh

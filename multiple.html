@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>dynamic html</title>
+</head>
+<body>
+</body>
+</html>
+<script>
+    let arr=[]
+    let body=document.querySelector("body")
+    let inp=document.createElement("input")
+    let btn=document.createElement("button")
+    btn.addEventListener("click",fun)
+    btn.innerText="add"
+    body.append(inp,btn)
+    function fun(){
+        arr.push(inp.value)
+        console.log(arr);
+        display()
+    }
+    function display(){
+        let h1=document.createElement("h1")
+        h1.innerText=arr[arr.length-1]
+        body.append(h1)
+    }
+</script>

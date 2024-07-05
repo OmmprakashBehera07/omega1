@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>dynamic html</title>
+</head>
+<body>
+    <h1 id="head">heading</h1>
+    <input type="text" value="abc">
+    <button onclick="fun()">click</button>
+</body>
+</html>
+<script>
+    let z=document.getElementById("head");
+    function fun(){
+        let x=document.querySelector("input");
+        z.innerText=x.value
+        console.log(x.value);
+    }
+</script>

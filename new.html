@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>dynamic html</title>
+</head>
+<body>
+</body>
+</html>
+<script>
+    let head=document.createElement("h1")
+    head.innerText="heading"
+    head.style.color="red"
+    head.style.border="1px solid red"
+    head.setAttribute("id","head")
+    head.setAttribute("class","heading")
+    let body=document.querySelector("body")
+    body.append(head);
+</script>
